@@ -2,6 +2,14 @@
 
 This repository provides the core implementation of MOSSAC, a risk-aware Soft Actor-Critic method for eVTOL path planning. The environment considers static obstacles, dynamic obstacles, casualty risk, and meteorological risk on a 101x101 grid map.
 
+For details of the method, please refer to the paper "Risk-aware eVTOL path planning for urban fixed-altitude cruise: A multimodal fusion reinforcement learning approach", planned for publication in Advanced Engineering Informatics.
+
+## Demo Video
+
+The demonstration video for risk-aware eVTOL path planning in complex urban scenarios is available here:
+
+[Watch the demonstration video](media/demo_video.mp4)
+
 ## Files
 
 - `env_MOSSAC.py`: Gym-style path-planning environment, radar observation model, obstacle dynamics, and reward components.
