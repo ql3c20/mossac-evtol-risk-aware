@@ -1,0 +1,9 @@
+numpy
+torch
+matplotlib
+gym
+shapely
+numba
+Pillow
+psutil
+tensorboard
